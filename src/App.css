@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
 }
@@ -22,10 +26,19 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+
+@media (min-width: 768px) {
+  .App-header {
+    flex-direction: row;
+  }
 }
 
 @keyframes App-logo-spin {
