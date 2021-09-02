@@ -16,7 +16,7 @@ function App() {
         />
         <Children
           title="CSS"
-          string="CSS servi para estilizar os elementos da sua página"
+          string="CSS serve para estilizar os elementos da sua página"
         />
       </div>
     </div>
